@@ -1,0 +1,145 @@
+.whitespace {
+  height: 50px;
+  width: 100%; }
+
+.orange_background {
+  background: #EF8B6A; }
+
+.yellow_background {
+  background: #F5E966; }
+
+.green_background {
+  background: #49B398; }
+
+.purple_background {
+  background: #613D8D; }
+
+.orange_text {
+  color: #EF8B6A; }
+
+.yellow_text {
+  color: #F5E966; }
+
+.green_text {
+  color: #49B398; }
+
+.purple_text {
+  color: #613D8D; }
+
+.fullWidth {
+  width: 100%; }
+
+.container {
+  color: #080808;
+  line-height: 1.4;
+  max-width: 900px;
+  display: block;
+  margin: 2rem auto 0 auto; }
+  .container h1 {
+    text-align: center;
+    font-weight: 400; }
+
+.event {
+  display: block;
+  margin: 3rem 0;
+  height: 260px; }
+
+.event_info {
+  color: #080808;
+  font-size: 0.9rem;
+  float: right;
+  border: 1px solid #e5e5e5;
+  border-left: 0;
+  box-sizing: border-box;
+  width: 55%;
+  padding: 1rem 2.5rem;
+  height: 100%; }
+  .event_info h2 {
+    font-size: 1.6rem; }
+
+.dateBox {
+  font-size: 1.3rem;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  position: absolute;
+  z-index: 123;
+  width: 8rem;
+  height: 2rem;
+  font-weight: 300; }
+
+.hrefBox_past {
+  color: #080808; }
+  .hrefBox_past:hover .see_more {
+    color: #808080; }
+  .hrefBox_past .dateBox {
+    background-color: #808080; }
+
+.hrefBox {
+  color: #080808; }
+  .hrefBox:nth-of-type(4n) .dateBox {
+    background-color: #EF8B6A; }
+  .hrefBox:nth-of-type(4n) .event_info:hover .see_more {
+    color: #EF8B6A; }
+  .hrefBox:nth-of-type(4n+1) .dateBox {
+    background-color: #49B398; }
+  .hrefBox:nth-of-type(4n+1) .event_info:hover .see_more {
+    color: #49B398; }
+  .hrefBox:nth-of-type(4n+2) .dateBox {
+    background-color: #613D8D; }
+  .hrefBox:nth-of-type(4n+2) .event_info:hover .see_more {
+    color: #613D8D; }
+  .hrefBox:nth-of-type(4n+3) .dateBox {
+    background-color: #F5E966; }
+  .hrefBox:nth-of-type(4n+3) .event_info:hover .see_more {
+    color: #F5E966; }
+
+.seeMore {
+  color: #080808; }
+
+.event_image {
+  height: 100%;
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+  float: left; }
+  .event_image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; }
+
+.header_description {
+  font-size: 1rem; }
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: block; }
+    .container h1 {
+      margin-bottom: 0; }
+    .container p {
+      display: none; }
+
+  .event {
+    margin: 5rem auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 260px; }
+
+  .event_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    width: 100%;
+    border: 1px solid #e5e5e5; }
+
+  .event_image {
+    overflow: visible;
+    width: 0; }
+    .event_image img {
+      display: none; } }
+
+/*# sourceMappingURL=campChoose.css.map */

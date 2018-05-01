@@ -1,0 +1,17 @@
+.suggest_list {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background: white;
+  position: absolute;
+  z-index: 999; }
+
+.suggest_item {
+  padding: 10px;
+  margin: 0; }
+  .suggest_item:hover {
+    background: rgba(0, 0, 0, 0.04);
+    cursor: pointer; }
+
+.suggest_input {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=autosuggest.css.map */

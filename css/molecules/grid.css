@@ -1,0 +1,11 @@
+.Grid {
+  display: flex;
+  flex-wrap: wrap; }
+
+.GridCellHalf {
+  flex: 50%; }
+
+.GridCellFull {
+  flex: 100%; }
+
+/*# sourceMappingURL=grid.css.map */

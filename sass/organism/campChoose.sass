@@ -1,0 +1,124 @@
+@import ../atoms/basics
+
+.container
+  color: $black
+  line-height: 1.4
+  max-width: 900px
+  display: block
+  margin: 2rem auto 0 auto
+  h1
+    text-align: center
+    font-weight: 400
+
+.event
+  display: block
+  margin: 3rem 0
+  height: 260px
+
+.event_info
+  color: $black
+  font-size: 0.9rem
+  float: right
+  border: 1px solid #e5e5e5
+  border-left: 0
+  box-sizing: border-box
+  width: 55%
+  padding: 1rem 2.5rem
+  height: 100%
+  h2
+    font-size: 1.6rem
+
+.dateBox
+  font-size: 1.3rem
+  text-align: center
+  vertical-align: middle
+  color: white
+  position: absolute
+  z-index: 123
+  width: 8rem
+  height: 2rem
+  font-weight: 300
+
+.hrefBox_past
+  color: $black
+  &:hover
+    .see_more
+      color: $gray
+  .dateBox
+    background-color: $gray
+
+.hrefBox
+  color: $black
+  &:nth-of-type(4n)
+    .dateBox
+      background-color: $orange
+    .event_info
+      &:hover
+        .see_more
+          color: $orange
+  &:nth-of-type(4n+1)
+    .dateBox
+      background-color: $green
+    .event_info
+      &:hover
+        .see_more
+          color: $green
+  &:nth-of-type(4n+2)
+    .dateBox
+      background-color: $purple
+    .event_info
+      &:hover
+        .see_more
+          color: $purple
+  &:nth-of-type(4n+3)
+    .dateBox
+      background-color: $yellow
+    .event_info
+      &:hover
+        .see_more
+          color: $yellow
+
+.seeMore
+  color: $black
+
+.event_image
+  height: 100%
+  width: 45%
+  position: relative
+  overflow: hidden
+  float: left
+  img
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 100%
+
+.header_description
+  font-size: 1rem
+
+@media screen and (max-width: 900px)
+  .container
+    display: block
+    h1
+      margin-bottom: 0
+    p
+      display: none
+  .event
+    margin: 5rem auto
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3)
+    width: 300px
+    height: 260px
+  .event_info
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    margin: auto auto
+    width: 100%
+    border: 1px solid #e5e5e5
+  .event_image
+    overflow: visible
+    width: 0
+    img
+      display: none

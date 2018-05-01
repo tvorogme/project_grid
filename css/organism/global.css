@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
+.whitespace {
+  height: 50px;
+  width: 100%; }
+
+.orange_background {
+  background: #EF8B6A; }
+
+.yellow_background {
+  background: #F5E966; }
+
+.green_background {
+  background: #49B398; }
+
+.purple_background {
+  background: #613D8D; }
+
+.orange_text {
+  color: #EF8B6A; }
+
+.yellow_text {
+  color: #F5E966; }
+
+.green_text {
+  color: #49B398; }
+
+.purple_text {
+  color: #613D8D; }
+
+.fullWidth {
+  width: 100%; }
+
+body {
+  font-family: Ubuntu, sans-serif;
+  color: #080808;
+  font-weight: 400;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=global.css.map */
