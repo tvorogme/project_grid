@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заголовок сюда</title>
+    <title>Примеры проектов летней школы 2018</title>
     <link rel="stylesheet" href="css/organism/projectGrid.css">
     <link rel="stylesheet" href="css/organism/global.css">
 
-    <meta name="description" content="Супер мега описание"/>
-    <meta name="keywords" content="один, два">
+    <meta name="description" content="Перед вами примеры проектов на лето 2018 года. Этот список создан для ознакомления с программой проектных треков, спецификой школы и примерами задач от организаторов, возможность предложить любую идею приветствуется вплоть до самого начала школы.  
+Любой из проектов можно реализовать с разной степенью погружения: от простого прототипа до полноценного исследования или продукта."/>
+    <meta name="keywords" content="проекты">
 
     <script type="text/javascript" src="js/index.js"></script>
 
@@ -18,24 +19,20 @@
 
 <div class="container">
     <div class="content-project-box">
-        <div class="left-flex-project-box">
+        
+            <div class="left-flex-project-box">
             <div class="project_box">
                 <div class="project_box_content">
                     <div class="project_box_content_background" style="background: url(images/more.png)"></div>
-                    <h3>Распределятор по направлениям</h3>
+                    <h3>Чат-бот для консультаций</h3>
                     <p>
-                        В рамках школы нам довольно часто приходится делить участников на какие-то группы: по
-                        направлениям,
-                        по
-                        командам, по домикам и комнатам. Предлагается реализовать алгоритм и интерфейс к нему. На вход
-                        подается
-                        список участников (и возможно, преподавателей), результаты участников на вступительных тестах (и
-                        возможно,
-                        психологических), история участия в наших школах (и возможно, не только наших).
+                        Чат-бот для консультаций и ответов на часто задаваемые вопросы о нашей школе. В текущей постановке бот должен обучиться по заданной базе "вопрос-ответ" отвечать пользователям (если похожий вопрос есть в базе) или же переадресовывать вопрос на живого человека. 
+Также необходимо реализовать сбор обратной связи от пользователей с последующим дообучением на новых данных, возможность поиска ответа по текстам с сайта школы, например, если вопроса нет в базе, но при этом информация легко ищется по сайту. Чат-бот должен легко масштабироваться и переноситься на любые другие проекты и организации.   
                     </p>
-
                     <p class="project_box_tags">
-                        <span class="project_box_tag">#Биоинформатика</span>
+                        <span class="project_box_tag">#анализданных</span>
+                        <span class="project_box_tag">#чатботы</span>
+                        <span class="project_box_tag">#сейчасвсебудет</span>
                     </p>
                 </div>
             </div>
@@ -43,32 +40,226 @@
         <div class="right-flex-project-box">
             <div class="project_box">
                 <div class="project_box_content">
-                    <div class="project_box_content_background" style="background: url(images/wtf.png)"></div>
-                    <h3>Сделать GitHub для pijul</h3>
-
-
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Автоматическое составление расписания</h3>
                     <p>
-                        Никому не нравится мёрджить. Это не только нужно делать руками; легко потерять пару строк - и
-                        потом долго отлаживать.
-
-
-                    </p>
-
+                        Сейчас в большинстве университетов и школ расписание составляются вручную. У этого подхода есть существенные минусы: не получается быстро перестроить расписание под новые обстоятельства;
+                        число независимых групп обучающихся ограничено, что мешает формировать индивидуальные образовательные траектории. В рамках проекта необходимо разработать инструмент, который по входным параметрам сможет выдать удобное для студентов и преподавателей расписание без внутренних конфликтов.
                     <p class="project_box_tags">
-                        <span class="project_box_tag">#РаспределенныеСистемы</span>
-                        <span class="project_box_tag">#ПрикладноеПрограммирование</span>
+                        <span class="project_box_tag">#алгоритмы</span>
+                        <span class="project_box_tag">#оптимизация</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Сделать GitHub для pijul</h3>
+                    <p>
+                     Никому не нравится мёрджить. Помимо того, что это нужно делать руками, легко потерять пару строк - и потом долго отлаживать.
+Поэтому придумали darcs и теорию патчей. Потом сделали ещё лучше - pijul – самый классный VCS, потому что патчи просто берут и накладываются: не эвристиками, а детерменировано. 
+                        Есть только одна проблема: adoption, а для этого нужен фронтенд-ориентированный интерфейс. Здесь же можно поэкспериментировать на предмет "может, не будем делать один большой сервер для децентрализованной системы?", но юзабельные identity и discovery быть должны.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#распредсистемы</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="right-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Бот для решения тестовых заданий ЕГЭ</h3>
+                    <p>
+                     Решение тестовых заданий ЕГЭ методами машинного обучения, а также последующим расширением функционала 
+                        на один из типов задач: с числовыми ответами, множественным выбором, графической информацией  – вплоть до реализации модели для решения всех тестовых заданий в рамках одного предмета.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#анализданных</span>
+                        <span class="project_box_tag">#</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Распределятор</h3>
+                    <p>
+                        В рамках школы нам довольно часто приходится делить участников на какие-то группы: по
+                        направлениям, уровню и специфике подготовки, интересам, возрасту и т.п. Предлагается реализовать алгоритм для подобных распределений и интерфейс к нему. На вход
+                        подается список участников процесса, а также в зависимости от постановки задачи дополнительная информация, например, результаты теста или собеседования, анкета или история участия.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#алгоритмы</span>
+                        <span class="project_box_tag">#оптимимзация</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/wtf.png)"></div>
+                    <h3>Бот для игры Pommerman</h3>
+                    <p>
+                        В простой вариации нужно реализовать одиночного бота для упрощенного аналога игры Bomberman. 
+                        Более сложные опции - участие в командном режиме и создание команды ботов для режима с коммуникацией Team Radio (одно из соревнований NIPS 2018 Competition Track) с написанием статьи по итогам.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#анализ данных</span>
+                        <span class="project_box_tag">#rl</span>
                     </p>
 
                 </div>
             </div>
 
-
         </div>
+        
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Картограф</h3>
+                    <p>
+                        Задача состоит в том, чтобы уподобиться продвинутому роботу-пылесосу и построить карту помещения с помощью набора камер и компьютерного зрения.
+                        Робот должен распознать границы помещения произвольной формы и наполнения, используя стереоскопическую систему камер, и построить его карту. 
+
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#робототехника</span>
+                        <span class="project_box_tag">#cv</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Matrix без интернета</h3>
+                    <p>
+                        Нецензурируемые коммуникации и децентрализация сейчас довольно актуальны, но мало у кого есть юзабельные решения.
+Matrix - одно из лучших FLOSS-решений, работающий на федерации: но каждый отдельный сервер всё равно можно забанить, и между ними неудобно мигрировать.
+Идеальная схема - это p2p-сеть с динамической маршрутизацией, продуманной инцентивизацией storage хабов, защитой метаданных, работающая поверх кастомного радио.
+                        Можно начать с открепления пользователей от сервера – деревня, в которой мы проводим школы с интернетом, который не рад, если кто-то загрузил в облако видео с посвята, чтобы его потом пятьдесят раз скачали обратно. Нужно оптимизировать content distribution - например, раздавая медиа IPFS.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#распредсистемы</span>
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#opensource</span>
+                        <span class="project_box_tag">#сейчасвсебудет</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Продвинутые онлайн-карты</h3>
+                    <p>
+                        Функциональность большинства онлайн-карт предоствляет собой конечный набор сценариев: поиск кратчайшего пути и места поблизости из какой-то категории.
+                        Тем не менее, есть и более сложные пользовательские сценарии планирования передвижений, например, планирование встреч для нескольких людей с посещением конкретных типов мест, составление сложных маршрутов с учетом индивидуальных параметров. 
+                        В рамках проекта предлагается реализовать собственную геоинформационную систему с модульной архитектурой запросов и эффективными алгоритмами поиска по геоиндексу.
+
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#алгоритмы</span>
+                        <span class="project_box_tag">#графы</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="right-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Голосовое управление системой устройств</h3>
+                    <p>
+                        Задача проекта состоит в том, чтобы собрать домашнее устройство, распознающее члена семьи и команду с последующим ее исполнением. 
+                        Первая часть проекта делится на задачу распознавания речи, задачу аутентификации владельцев и задачу конфигурирования API для работы с домашними устройствами. Вторая часть (железная) может представлять из себя систему освещения и климат-контроля, замки, домашний кинотеатр или любое другое устройство.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#робототехника</span>
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#анализданных</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Вкрутить nix в Qubes</h3>
+                    <p>
+                        Nix - отличный package manager, а Qubes - отличная ОС, но сейчас они не дружат: store дублируется во всех ВМ, в которых установлен nix.
+Можно сделать процесс намного эффективнее, выделив отдельную ВМ для общего store. Какие допущения это вносит в нашу модель угроз? Другой вектор - собрать NixOS для Qubes.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#opensource</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>Генерация музыки и ее стилизация</h3>
+                    <p>
+Генерация музыки в заданном жанре или в стиле конкретного исполнителя с помощью нейронных сетей. Дополнительно можно учиться генерировать исполнения существующих песен в другом стиле.
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#анализданных</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="left-flex-project-box">
+            <div class="project_box">
+                <div class="project_box_content">
+                    <div class="project_box_content_background" style="background: url(images/more.png)"></div>
+                    <h3>FindFace</h3>
+                    <p>
+Мобильное приложение для идентификация человека по загруженной вами фотографии и поиска информации о нем из открытых источников. Пример кейса: поиск профиля в соцсетях понравившейся в метро девушки. 
+                    </p>
+                    <p class="project_box_tags">
+                        <span class="project_box_tag">#прикладное</span>
+                        <span class="project_box_tag">#анализданных</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
     </div>
 
     <div class="tags-project-box">
         <div class="tags-project-box-inside-wrapper">
-            <p class="get_project_with_tag">#РаспределенныеСистемы</p>
+            <p class="get_project_with_tag">#распредсистемы</p>
         </div>
 
         <p class="get_project_clear get_project_with_tag">Сбросить фильтры</p>
