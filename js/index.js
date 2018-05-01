@@ -26,9 +26,7 @@ function filter_projects_by_tag(tag) {
             // Get all 'span' in element
             var element_tags = element.getElementsByTagName("span");
 
-
-            // Last one is hidden text, so skip it
-            for (var i = 0; i < element_tags.length - 1; i += 1) {
+            for (var i = 0; i < element_tags.length; i += 1) {
 
                 if (element_tags[i].innerText === tag) {
                     element.style.display = 'block';
