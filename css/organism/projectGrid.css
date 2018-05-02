@@ -54,8 +54,18 @@ body {
 .project_box_tag {
   width: 150%; }
 
+.try_own_project_box {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin: 0 !important; }
+
 .project_box img {
-  width: 100%; }
+  width: 20%;
+  display: block;
+  margin: 0 auto !important;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
 .project_box h3 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -115,7 +125,8 @@ body {
 .project_box_content_background {
   height: 200px;
   background-size: cover !important;
-  background-position: center !important; }
+  background-position: center !important;
+  display: none !important; }
 
 .tags-project-box-inside-wrapper {
   margin-top: 1rem;
@@ -150,6 +161,9 @@ body {
 
   .tags-project-box-inside-wrapper {
     margin: 1rem 0;
-    padding: 0 1rem; } }
+    padding: 0 1rem; }
+
+  .get_project_clear {
+    padding-left: 1rem; } }
 
 /*# sourceMappingURL=projectGrid.css.map */
