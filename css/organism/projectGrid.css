@@ -191,6 +191,9 @@ body {
       padding-top: 0.3rem; }
 
   .get_project_clear {
-    margin-left: 1rem !important; } }
+    margin-left: 1rem !important; }
+
+  .back_project_box_button {
+    display: none; } }
 
 /*# sourceMappingURL=projectGrid.css.map */
