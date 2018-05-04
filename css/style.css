@@ -1058,10 +1058,10 @@ input {
         align-items: center;
         margin: 0px;
         box-sizing: border-box;
+        margin-top: 2rem
     }
 
     .footer-block {
-        min-height: 20vh;
         text-decoration: none;
         text-align: center;
         font-weight: 300;

@@ -122,11 +122,11 @@ body {
 
 .content-project-box {
   width: 87%;
-  float: right; }
+  float: left; }
 
 .tags-project-box {
   width: 13%;
-  float: right; }
+  float: left; }
 
 .project-box-preambula {
   font-size: 0.8rem;
@@ -179,6 +179,14 @@ body {
   .project-box-preambula,
   h1 {
     padding-left: 1rem;
-    padding-right: 1rem; } }
+    padding-right: 1rem; }
+
+  .get_project_with_tag {
+    display: block;
+    float: left;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem; }
+    .get_project_with_tag:nth-child(1) {
+      padding-top: 0.3rem; } }
 
 /*# sourceMappingURL=projectGrid.css.map */
