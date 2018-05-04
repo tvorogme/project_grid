@@ -1,7 +1,7 @@
 @import ../atoms/basics
 
 body
-  background: #f4f7f6
+  background: #f7f7f7
 
 .container
   color: $black
@@ -26,11 +26,17 @@ body
 .project_box_tag
   width: 150%
 
-.try_own_project_box
+.try_own_project_box_text
   width: 100%
   text-align: center
-  padding-bottom: 1rem
+  padding: 0 0 1rem 0 !important
   margin: 0 !important
+
+.try_own_project_box_content
+  padding: 2rem
+
+  &:hover
+    cursor: pointer
 
 .project_box
   img
@@ -49,6 +55,7 @@ body
   p
     margin-left: 1rem
     margin-right: 1rem
+    font-size: 0.8rem
 
   label
     padding: 0.5rem 0
@@ -66,7 +73,7 @@ body
 
 .project_box_content
   background: white
-  margin: 1rem
+  margin: 1rem 0.45rem 1rem 0.45rem
 
 .menu
   display: flex
@@ -96,12 +103,16 @@ body
     display: none
 
 .content-project-box
-  width: 80%
+  width: 87%
   float: right
 
 .tags-project-box
-  width: 20%
+  width: 13%
   float: right
+
+.project-box-preambula
+  font-size: 0.8rem
+  margin-bottom: 2rem
 
 .project_box_content_background
   height: 200px
@@ -148,3 +159,8 @@ body
 
   .get_project_clear
     padding-left: 1rem
+
+  .project-box-preambula,
+  h1
+    padding-left: 1rem
+    padding-right: 1rem

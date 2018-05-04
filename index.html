@@ -10,6 +10,7 @@
     <meta name="description" content="Перед вами примеры проектов на лето 2018 года. Этот список создан для ознакомления с программой проектных треков, спецификой школы и примерами задач от организаторов, возможность предложить любую идею приветствуется вплоть до самого начала школы.  
 Любой из проектов можно реализовать с разной степенью погружения: от простого прототипа до полноценного исследования или продукта."/>
     <meta name="keywords" content="проекты">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script type="text/javascript" src="js/index.js"></script>
 
@@ -20,7 +21,7 @@
 
 <div class="container">
     <h1>Примеры проектов летней школы 2018</h1>
-    <p>
+    <p class="project-box-preambula">
         Перед вами примеры проектов на лето 2018 года. Этот список создан для ознакомления с программой проектных
         треков, спецификой школы и примерами задач от организаторов, возможность предложить любую идею приветствуется
         вплоть до самого начала школы.<br><br>
@@ -32,12 +33,13 @@
     <div class="content-project-box">
         <div class="left-flex-project-box">
             <div class="project_box">
-                <div class="project_box_content">
+                <div onclick="window.location = 'https://docs.google.com/forms/d/e/1FAIpQLSe4E7f3MhkrMTEYN7l4MREO48SibObf4m6CdV2lEpVCUbYTCw/viewform'"
+                     class="project_box_content try_own_project_box_content">
                     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNTRweCIgaGVpZ2h0PSI1NHB4IiB2aWV3Qm94PSIwIDAgNTQgNTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI%2BCiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ2LjIgKDQ0NDk2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5Hcm91cCAxMzwvdGl0bGU%2BCiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJEZXNrdG9wLUhELUNvcHktMTUwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTYyLjAwMDAwMCwgLTg1Ni4wMDAwMDApIiBzdHJva2U9IiMyMjIyMjIiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyNi4wMDAwMDAsIDg1Ni4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0xMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzYuMDAwMDAwLCAwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwtMSIgY3g9IjI3IiBjeT0iMjciIHI9IjI2LjUiPjwvY2lyY2xlPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC04IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS43NTAwMDAsIDE1Ljc1MDAwMCkiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEuMjUsMC44NjUzODQ2MTUgTDExLjI1LDIxLjYzNDYxNTQiIGlkPSJMaW5lIj48L3BhdGg%2BCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMS42MzQ2MTU0LDExLjI1IEwwLjg2NTM4NDYxNSwxMS4yNSIgaWQ9IkxpbmUtQ29weSI%2BPC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc%2B">
-                    <p class="try_own_project_box">Предложить свой проект</p>
+                    <h3 class="try_own_project_box_text">Предложить<br>идею проекта</h3>
                 </div>
             </div>
-            
+
             <div class="project_box">
                 <div class="project_box_content">
                     <div class="project_box_content_background" style="background: url(images/more.png)"></div>
@@ -54,7 +56,7 @@
                     <p class="project_box_tags">
                         <span class="project_box_tag">#анализданных</span>
                         <span class="project_box_tag">#чатботы</span>
-                        <span class="project_box_tag">#сейчасвсебудет</span>
+                        <span class="project_box_tag">#грант</span>
                     </p>
                 </div>
             </div>
@@ -256,7 +258,7 @@
                         <span class="project_box_tag">#распредсистемы</span>
                         <span class="project_box_tag">#прикладное</span>
                         <span class="project_box_tag">#opensource</span>
-                        <span class="project_box_tag">#сейчасвсебудет</span>
+                        <span class="project_box_tag">#грант</span>
                     </p>
                 </div>
             </div>
@@ -403,51 +405,51 @@
 </footer>
 
 
-<!-- Трекер большого брата -->
-<div style='display: none;'>
-    <!-- Yandex.Metrika informer -->
-    <a href="https://metrika.yandex.ru/stat/?id=27106058&amp;from=informer"
-       target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/27106058/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-                                           style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
-                                           title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
-                                           onclick="try{Ya.Metrika.informer({i:this,id:27106058,lang:'ru'});return false}catch(e){}"/></a>
-    <!-- /Yandex.Metrika informer -->
+<!--&lt;!&ndash; Трекер большого брата &ndash;&gt;-->
+<!--<div style='display: none;'>-->
+<!--&lt;!&ndash; Yandex.Metrika informer &ndash;&gt;-->
+<!--<a href="https://metrika.yandex.ru/stat/?id=27106058&amp;from=informer"-->
+<!--target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/27106058/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"-->
+<!--style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"-->
+<!--title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"-->
+<!--onclick="try{Ya.Metrika.informer({i:this,id:27106058,lang:'ru'});return false}catch(e){}"/></a>-->
+<!--&lt;!&ndash; /Yandex.Metrika informer &ndash;&gt;-->
 
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function () {
-                try {
-                    w.yaCounter27106058 = new Ya.Metrika({
-                        id: 27106058,
-                        webvisor: true,
-                        clickmap: true,
-                        trackLinks: true,
-                        accurateTrackBounce: true
-                    });
-                } catch (e) {
-                }
-            });
+<!--&lt;!&ndash; Yandex.Metrika counter &ndash;&gt;-->
+<!--<script type="text/javascript">-->
+<!--(function (d, w, c) {-->
+<!--(w[c] = w[c] || []).push(function () {-->
+<!--try {-->
+<!--w.yaCounter27106058 = new Ya.Metrika({-->
+<!--id: 27106058,-->
+<!--webvisor: true,-->
+<!--clickmap: true,-->
+<!--trackLinks: true,-->
+<!--accurateTrackBounce: true-->
+<!--});-->
+<!--} catch (e) {-->
+<!--}-->
+<!--});-->
 
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () {
-                    n.parentNode.insertBefore(s, n);
-                };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+<!--var n = d.getElementsByTagName("script")[0],-->
+<!--s = d.createElement("script"),-->
+<!--f = function () {-->
+<!--n.parentNode.insertBefore(s, n);-->
+<!--};-->
+<!--s.type = "text/javascript";-->
+<!--s.async = true;-->
+<!--s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";-->
 
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else {
-                f();
-            }
-        })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript>
-        <div><img src="//mc.yandex.ru/watch/27106058" style="position:absolute; left:-9999px;" alt=""/></div>
-    </noscript>
-</div>
+<!--if (w.opera == "[object Opera]") {-->
+<!--d.addEventListener("DOMContentLoaded", f, false);-->
+<!--} else {-->
+<!--f();-->
+<!--}-->
+<!--})(document, window, "yandex_metrika_callbacks");-->
+<!--</script>-->
+<!--<noscript>-->
+<!--<div><img src="//mc.yandex.ru/watch/27106058" style="position:absolute; left:-9999px;" alt=""/></div>-->
+<!--</noscript>-->
+<!--</div>-->
 </body>
 </html>
