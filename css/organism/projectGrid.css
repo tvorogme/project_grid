@@ -122,7 +122,8 @@ body {
 
 .content-project-box {
   width: 87%;
-  float: left; }
+  float: left;
+  margin-bottom: 2rem; }
 
 .tags-project-box {
   width: 13%;
