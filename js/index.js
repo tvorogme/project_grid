@@ -64,6 +64,9 @@ function filter_by_tags(new_tag) {
     if (tags.indexOf(new_tag) === -1) {
         tags.push(new_tag);
         colorize_tags();
+    } else {
+        tags.splice(tags.indexOf(new_tag), 1);
+        colorize_tags();
     }
 
     var project_elements = filter_projects_by_tag(tags[0], projects);
